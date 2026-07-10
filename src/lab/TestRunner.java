@@ -18,7 +18,7 @@ public class TestRunner {
     public static void main(String[] a) {
         boolean ea = false;
         assert ea = true;
-        if (!ea) System.out.println("!! Assertions are OFF: run with -ea, otherwise Q3 is not fully checked\n");
+        if (!ea) System.out.println("!! Assertions are OFF: run with -ea, otherwise Q3 is not fully checked\n");//
 
         System.out.println("== Q1: StringUtils.countVowels ==");
         check("'Hello World' = 3", StringUtils.countVowels("Hello World") == 3);
